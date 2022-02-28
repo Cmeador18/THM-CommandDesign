@@ -1,4 +1,4 @@
-public class JumpCommand {
+public class JumpCommand implements Command{
 
     private Player player;
 
