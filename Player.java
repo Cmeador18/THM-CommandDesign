@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.concurrent.TimeUnit;
 
@@ -18,7 +19,12 @@ public class Player{
      */
     public void jump()
     {
-        this.scanner = new Scanner("jump.txt");
+        try {
+            this.scanner = new Scanner(new File("jump.txt"));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         this.printAnimation(6);
     }
     
@@ -27,7 +33,12 @@ public class Player{
      */
     public void fire()
     {
-        this.scanner = new Scanner("fire.txt");
+        try {
+            this.scanner = new Scanner(new File("fire.txt"));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         this.printAnimation(3);
     }
 
@@ -36,7 +47,12 @@ public class Player{
      */
     public void runForward()
     {
-        scanner = new Scanner("run.txt");
+        try {
+            scanner = new Scanner(new File("run.txt"));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         printAnimation(3);
     }
 
