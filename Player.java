@@ -33,7 +33,7 @@ public class Player{
         System.out.print("\033[H\033[2J");
     }
     
-    private void print_animation(int numOfLines) {
+    private void printAnimation(int numOfLines) {
         while(scanner.hasNextLine()) {
             for (int i = 0; i < numOfLines; i++) {
                 System.out.println(scanner.nextLine());
