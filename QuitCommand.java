@@ -1,4 +1,4 @@
-public class QuitCommand {
+public class QuitCommand implements Command{
 
     private Player player;
 

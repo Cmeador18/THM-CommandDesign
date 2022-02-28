@@ -1,4 +1,4 @@
-public class Player implements Command {
+public class Player{
 
     public Player()
     {

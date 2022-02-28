@@ -1,4 +1,4 @@
-public interface Command implements InputHandler{
+public interface Command{
 
     public void execute();
     

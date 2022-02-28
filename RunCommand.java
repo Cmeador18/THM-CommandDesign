@@ -1,4 +1,4 @@
-public class RunCommand{
+public class RunCommand implements Command{
     
     private Player player;
 

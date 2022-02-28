@@ -1,4 +1,4 @@
-public class FireCommand{
+public class FireCommand implements Command{
 
     private Player player;
 
