@@ -4,7 +4,7 @@ public class JumpCommand implements Command{
 
     public JumpCommand(Player player)
     {
-        this.player = new Player();
+        this.player = player;
     }
     public void execute()
     {
