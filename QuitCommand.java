@@ -5,10 +5,10 @@ public class QuitCommand implements Command{
 
     public QuitCommand(Player player)
     {
-
+        player = this.player;
     }
     public void execute()
     {
-        
+        System.out.println("Quit");
     }
 }
