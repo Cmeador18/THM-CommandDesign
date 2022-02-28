@@ -4,10 +4,10 @@ public class RunCommand implements Command{
 
     public RunCommand(Player player)
     {
-
+        player = this.player;
     }
     public void execute()
     {
-
+        player.runForward();
     }
 }

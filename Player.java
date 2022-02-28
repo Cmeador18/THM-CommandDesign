@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 import java.util.concurrent.TimeUnit;
 
 public class Player{
@@ -18,7 +19,7 @@ public class Player{
     }
     public void runForward()
     {
-
+        printAnimation(78);
     }
 
     private void sleep(int num) {
