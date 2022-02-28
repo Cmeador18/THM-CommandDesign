@@ -4,7 +4,7 @@ public class RunCommand implements Command{
 
     public RunCommand(Player player)
     {
-        player = this.player;
+        this.player = player;
     }
     public void execute()
     {

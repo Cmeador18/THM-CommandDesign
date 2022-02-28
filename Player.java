@@ -19,7 +19,8 @@ public class Player{
     }
     public void runForward()
     {
-        printAnimation(78);
+        scanner = new Scanner("run.txt");
+        printAnimation(3);
     }
 
     private void sleep(int num) {
