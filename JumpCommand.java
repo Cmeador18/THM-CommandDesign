@@ -4,11 +4,11 @@ public class JumpCommand implements Command{
 
     public JumpCommand(Player player)
     {
-
+        this.player = new Player();
     }
     public void execute()
     {
-        
+        this.player.jump();
     }
     
 }
