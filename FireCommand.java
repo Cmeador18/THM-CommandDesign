@@ -4,10 +4,10 @@ public class FireCommand implements Command{
 
     public FireCommand(Player player)
     {
-
+        this.player = new Player();
     }
     public void execute()
     {
-        
+        this.player.fire();
     }
 }
