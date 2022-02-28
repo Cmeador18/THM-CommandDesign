@@ -4,7 +4,7 @@ public class FireCommand implements Command{
 
     public FireCommand(Player player)
     {
-        this.player = new Player();
+        this.player = player;
     }
     public void execute()
     {
