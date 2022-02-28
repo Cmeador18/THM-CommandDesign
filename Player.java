@@ -8,7 +8,6 @@ public class Player{
     public Player()
     {
         System.out.println("Our hero is born");
-        this.scanner = new Scanner();
     }
     public void jump()
     {
