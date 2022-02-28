@@ -7,15 +7,18 @@ public class Player{
     
     public Player()
     {
-
+        System.out.println("Our hero is born");
+        this.scanner = new Scanner();
     }
     public void jump()
     {
-
+        this.scanner = new Scanner("jump.txt");
+        this.printAnimation(6);
     }
     public void fire()
     {
-
+        this.scanner = new Scanner("fire.txt");
+        this.printAnimation(3);
     }
     public void runForward()
     {
