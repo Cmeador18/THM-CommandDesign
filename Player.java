@@ -5,20 +5,35 @@ import java.util.concurrent.TimeUnit;
 public class Player{
     private Scanner scanner;
     
+    /**
+     * Initializes player and prints out birth
+     */
     public Player()
     {
         System.out.println("Our hero is born");
     }
+
+    /**
+     * Prints out jump animation stored in jump.txt
+     */
     public void jump()
     {
         this.scanner = new Scanner("jump.txt");
         this.printAnimation(6);
     }
+    
+    /**
+     * Prints out fire animation stored in fire.txt
+     */
     public void fire()
     {
         this.scanner = new Scanner("fire.txt");
         this.printAnimation(3);
     }
+
+    /**
+     * Prints out run animation stored in run.txt
+     */
     public void runForward()
     {
         scanner = new Scanner("run.txt");
